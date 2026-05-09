@@ -1,0 +1,33 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file (omit from packages; applications should commit it)
+composer.lock
+
+# PHPUnit cache
+.phpunit.cache/
+.phpunit.result.cache
+
+# Pest cache
+.pest/
+
+# IDE and editor directories
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build artefacts
+/build/
+/dist/
+
+# Node (unlikely in a PHP package but good to guard against)
+/node_modules/
